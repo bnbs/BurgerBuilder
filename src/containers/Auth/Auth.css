@@ -1,0 +1,79 @@
+.AuthContainer {
+    position: relative;
+}
+
+.Background {
+    background: url("../../assets/images/burger4.jpg") center/cover;
+    filter: sepia(60%);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+.Auth {
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #212121;
+    border-radius: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.Auth h1{
+    color: white;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: stretch;
+}
+
+.Buttons button {
+    flex-grow: 1;
+    color: white;
+    border: none;
+    padding: 16px;
+    outline: none;
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.Signup {
+    background: #007BFF;
+}
+
+.Signin {
+    background: #28A745;
+}
+
+.Signup:hover {
+    color: #007BFF;
+    background: white;
+}
+
+.Signin:hover {
+    color: #28A745;
+    background: white;
+}
+
+.Error {
+    color: red;
+    font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    .Auth {
+        width: 500px;
+        padding: 32px;
+    }
+}

@@ -1,0 +1,45 @@
+.Order {
+    width: 80%;
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    margin: 8px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 8px;
+}
+
+.Order:first-of-type {
+    margin-top: 32px;
+}
+
+.Order div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Button {
+    color: white;
+    border: 2px solid #DC3545;
+    padding: 4px 16px;
+    outline: none;
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 10px;
+    background: #DC3545;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+.Button:hover {
+    color: #DC3545;
+    background: white;
+}
+
+@media (min-width: 1000px) {
+    .Order {
+        width: 60%;
+    }
+}

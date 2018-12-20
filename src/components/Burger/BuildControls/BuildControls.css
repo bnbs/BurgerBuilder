@@ -1,0 +1,10 @@
+.BuildControls {
+    padding: 4px;
+    margin-top: 32px;
+}
+
+@media (min-width: 896px) {
+    .BuildControls {
+       margin-top: 0;
+    }
+}
