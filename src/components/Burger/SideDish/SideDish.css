@@ -1,0 +1,4 @@
+.SideDishContainer{
+    display: flex;
+    flex-flow: column;
+}
